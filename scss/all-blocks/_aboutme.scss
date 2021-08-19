@@ -1,0 +1,73 @@
+.aboutme .container{
+    display: flex;
+}
+.aboutme__info{
+    max-width: 350px;
+    margin-left: auto;
+}
+.aboutme__info__heading{
+    font-family: 'Ibarra Real Nova', serif;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px
+}
+
+.about__info__desc{
+    max-width: 350px;
+    
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 41px;
+}
+
+.aboutme__link{
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    
+    padding: 17px 32px;
+    border: 2px solid #33323D;
+}
+@media only screen and (max-width:768px){
+    .aboutme__info{
+        margin-left: 20px;     
+    }
+    .aboutme__info__heading{
+        font-family: 'Ibarra' 'Real Nova';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .about__info__desc{
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        /* or 187% */
+        
+        
+        color: #33323D;
+        
+    }
+}
+@media only screen and (max-width:425px){
+    .aboutme .container{
+        margin-top: 200px;
+        display: block;
+    }
+    .aboutme__info{
+        max-width: 311px;
+
+    }
+}

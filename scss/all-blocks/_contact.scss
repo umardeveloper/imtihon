@@ -1,0 +1,49 @@
+.contact-me .container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-me__info{
+    max-width: 350px;
+    
+    
+}
+.contact-me__heading{
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    
+    color: #33323D;
+}
+.contact-me__link{
+    margin-top: 56px;
+    color: #33323D;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    height: 0;
+    padding: 17px 32px;
+    padding-bottom: 32px;
+    border: 2px solid #33323D;
+}
+
+@media only screen and (max-width:425px){
+    .contact-me .container{
+        display: block;
+    }
+    .contact-me__info{
+        max-width: 311px;
+        text-align: center;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .contact-me__link{
+
+        margin-left: 130px;
+        margin-bottom: 20px;
+
+    }
+}

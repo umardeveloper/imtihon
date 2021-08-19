@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.min.css">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header ">
+		<div class="container">
+			<a class="header__link" href="./index.html" >
+				<img class="header__logo" srcset="./images/header-logo.svg, ./images/header-logo@2x.svg" alt="header logo" width="60" height="32">
+			</a>
+			<button class="humburger-button">
+				<img class="humburger-button-mobile" src="./images/mobile-humburger.png" alt="" >
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item ">
+						<a class="nav__link  nav__link--active" href="./index.html" >
+							HOME
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="./portfolio.html" >
+							PORTFOLIO
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link " href="./contact-me.html" >
+							CONTACT ME
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main class="main">
+		<!--################## HERO SECTION ##################-->
+		<section class="hero">
+			<div class="container">
+				<div class="hero__box">
+					<h1 class="box__info">
+						Hey, I’m Alex Spencer and I love building beautiful websites
+					</h1>
+					<a class="hero__link" href="#" > 
+						<button class="hero__button">
+							<img class="hero__button__img" src="./images/hero-button.svg" alt="about me button" >
+						</button>
+						<span class="hero__style">
+							ABOUT ME
+						</span>
+					</a>
+				</div>
+				
+			</div>
+		</section>
+		
+		<section class="aboutme">
+			<div class="container">
+				<picture>
+					<!-- webP -->
+					<source 
+					type="image/webP"
+					srcset="./images/human.webp 1x, ./images/human@2x.webp 2x"
+					>
+					
+					<source 
+					media="(max-width:768px)"
+					type="image/webP"
+					srcset="./images/human-tablet-version.webp 1x, ./images/human-tablet-version@2x.webp 2x  "
+					
+					>
+					<img class="human-img" src="./images/human.png" srcset="./images/human.png 1x , ./images/human@2x.png 2x" alt="about me" width="540" height="600">
+				</picture>
+				<div class="aboutme__info">
+					<h2 class="aboutme__info__heading">
+						About Me
+					</h2>
+					
+					<p class="about__info__desc">
+						I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.
+					</p>
+					
+					<a class="aboutme__link" href="./porfolio.html" >
+						GO TO PORTFOLIO
+					</a>
+				</div>
+			</div>
+		</section>
+		
+		<section class="contact-me">
+			<div class="container">
+				<div class="contact-me__info">
+					<h2 class="contact-me__heading">
+						Interested in doing a project together?
+					</h2>
+				</div>
+				<a href="#" class="contact-me__link " >
+					CONTACT ME
+				</a>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="footer">
+		<div class="container footer__container">
+			
+			<a class="footer-logo" href="./index.html">
+				<img class="header__img" src="./images/footer-logo.svg" alt="foter logo link" width="60" height="32">
+			</a>
+			
+			<nav class="nav nav__right">
+				
+				<ul class="nav__list">
+					
+					<li class="nav__item">
+						<a class="nav__link" href="./index.html">HOME</a>
+					</li>
+					
+					<li class="nav__item">
+						<a class="nav__link" href="./portfolio.html">PORTFOLIO</a>
+					</li>
+					
+					<li class="nav__item nav__item--b">
+						<a class="nav__link" href="./contact.html">CONTACT ME</a>
+					</li>
+					
+				</ul>
+				
+			</nav>
+			
+			<div class="footer__link">
+				
+				<a href="" class="link__icon">
+					<img class="icon__img" src="./images/git-hub-icon.svg" alt="github icon" width="25" height="24">
+				</a>
+				
+				<a href="" class="link__icon">
+					<img class="icon__img" src="./images/twitter-icon.svg" alt="twitter icon" width="25" height="24">
+				</a>
+				
+				<a href="" class="link__icon">
+					<img class="icon__img" src="./images/linkedin-icon.svg" alt="instagram icon" width="24" height="25">
+				</a>
+				
+			</div>
+			
+		</div>
+	</footer>
+	
+	<script src="./js/main.js"></script>
+</body>
+</html>
